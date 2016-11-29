@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+</head>
+<body>
+<script>
+    ws = new WebSocket("ws://127.0.0.1:5884/CardReader");
+    ws.onmessage = function (msg) {
+        var info = JSON.parse(msg.data);
+        console.log(info.uid);
+        document.writeln("<div>" + info.uid + "</div>");
+    };
+</script>
+</body>
+</html>

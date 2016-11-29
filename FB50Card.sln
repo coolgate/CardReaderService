@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTools", "CardTools\CardTools.csproj", "{477A2828-7E28-42D3-8ACB-04DB8EF6FADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardToolsUnitTest", "CardToolsUnitTest\CardToolsUnitTest.csproj", "{5E02FC81-C5C1-4721-8398-4C3D6A25A434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCardSample", "ReadCardSample\ReadCardSample.csproj", "{D2986035-9F1B-4A98-B1C3-01D0B113CA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadCardService", "ReadCardService\ReadCardService.csproj", "{84A2B20C-CA50-43FF-89A5-8135850E5581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMessageSubscriber", "CardMessageSubscriber\CardMessageSubscriber.csproj", "{91DCF581-B1DA-428D-A5C5-9FC3B2478326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMessageWebSocketClient", "CardMessageWebSocketClient\CardMessageWebSocketClient.csproj", "{1F729FBE-76C9-48D4-928A-8AB5AB39FDD3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477A2828-7E28-42D3-8ACB-04DB8EF6FADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477A2828-7E28-42D3-8ACB-04DB8EF6FADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477A2828-7E28-42D3-8ACB-04DB8EF6FADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477A2828-7E28-42D3-8ACB-04DB8EF6FADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E02FC81-C5C1-4721-8398-4C3D6A25A434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E02FC81-C5C1-4721-8398-4C3D6A25A434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E02FC81-C5C1-4721-8398-4C3D6A25A434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E02FC81-C5C1-4721-8398-4C3D6A25A434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2986035-9F1B-4A98-B1C3-01D0B113CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2986035-9F1B-4A98-B1C3-01D0B113CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2986035-9F1B-4A98-B1C3-01D0B113CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2986035-9F1B-4A98-B1C3-01D0B113CA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A2B20C-CA50-43FF-89A5-8135850E5581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A2B20C-CA50-43FF-89A5-8135850E5581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A2B20C-CA50-43FF-89A5-8135850E5581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A2B20C-CA50-43FF-89A5-8135850E5581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DCF581-B1DA-428D-A5C5-9FC3B2478326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DCF581-B1DA-428D-A5C5-9FC3B2478326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DCF581-B1DA-428D-A5C5-9FC3B2478326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DCF581-B1DA-428D-A5C5-9FC3B2478326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F729FBE-76C9-48D4-928A-8AB5AB39FDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F729FBE-76C9-48D4-928A-8AB5AB39FDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F729FBE-76C9-48D4-928A-8AB5AB39FDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F729FBE-76C9-48D4-928A-8AB5AB39FDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
